@@ -24,7 +24,7 @@ header {
   border-bottom: 5px solid #fdf731;
 }
 
-h1 {
+h1.logo a{
   color: #fdf731;
   font-size: 30px;
   font-family: "Merriweather";
@@ -76,9 +76,98 @@ nav li.active {
   background-color: #777;
 }
 
-/* footer
+.tagline {
+  background-color: #c6c6c6;
+  height: 100px;
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 35px;
+}
+
+del {
+  color: #808080;
+}
+
+ins {
+  color: #fdf731;
+}
+
+.top {
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+}
+
+.blurb {
+  width: 25%;
+  height: 600px;
+  background-color: red;
+  float: right;
+  margin: auto;
+  padding: 30px;
+  display: inline-block;
+}
+
+.meet-your-match {
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.meet-blurb {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+
+.btn {
+  background-color: #fdf731;
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 20px;
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px #B29A36;
+}
+
+.bottom {
+  overflow: hidden;
+
+}
+.create-a-profile {
+  background-color: blue;
+  width: 33%;
+  height: 500px;
+  display: inline-block;
+}
+
+.find-a-developer {
+  background-color: green;
+  width: 33%;
+  height: 500px;
+  display: inline-block;
+}
+
+.find-a-designer {
+  background-color: yellow;
+  width: 33%;
+  height: 500px;
+  display: inline-block;
+}
+
+
 footer {
   background-color: #000000;
   height: 100px;
-*/
 }
