@@ -46,11 +46,11 @@ nav {
 a {
   text-decoration: none;
   color: #ffffff;
+  padding:0 15px;
 }
 
 
 nav a {
-  padding: 38px 15px;
   display: inline-block;
 }
 
@@ -69,7 +69,6 @@ li.other-links {
 
 nav a:hover {
   color: #fdf731;
-  padding:0 15px;
 }
 
 nav li.active {
