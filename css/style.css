@@ -56,16 +56,20 @@ nav a {
 
 li {
   display: inline-block;
+  line-height: 97px;
+  margin-top: -2px;
 }
 
 li.other-links {
   font-family: "Source Sans Pro";
   font-weight: 400;
   margin-top: -2px;
+  line-height: 95px;
 }
 
 nav a:hover {
   color: #fdf731;
+  padding:0 15px;
 }
 
 nav li.active {
