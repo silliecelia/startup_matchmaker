@@ -99,18 +99,26 @@ ins {
   overflow: hidden;
 }
 
-.image {
+.main-image {
+  background: url("../images/coworking.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
+  overflow: auto;
+  height: 664px;
 }
 
 .blurb {
   width: 25%;
-  height: 600px;
-  background-color: red;
+  height: 400px;
+  background-color: rgba(255,255,255,.85);
   float: right;
   margin: auto;
   padding: 30px;
   display: inline-block;
+  border: 2px solid #ddd;
+  margin-top: 100px;
+  margin-right: 50px;
 }
 
 .meet-your-match {
@@ -150,6 +158,18 @@ ins {
   width: 33%;
   height: 500px;
   display: inline-block;
+}
+
+.create-title {
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.create-text {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .find-a-developer {
