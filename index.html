@@ -72,11 +72,9 @@
 					<p class="text-style">Are you a Designer? Developer? Put yourself out there so that others can find you!</p>
 
 					<a href="#">
-						<div class="grey-btn">
+						<div class="grey-btn" id='sign-up'>
 							<p>SIGN UP NOW</p>
 						</div>
-
-						<script type="text/javascript"></script>
 					</a>
 				</div>
 
@@ -106,6 +104,10 @@
 			<footer>
 				<p class="footer-copy">&copy;2013 Startup Matchmaker. Made in NY.</p>
 			</footer>
-
+			<script type="text/javascript">
+			document.getElementById('signup').onclick = function(){
+				window.alert('Not taking sign ups yet');
+			}
+			</script>
 		</body>
 	</html>
