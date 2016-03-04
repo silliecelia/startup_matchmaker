@@ -26,16 +26,16 @@ header {
 
 h1.logo a{
   color: #fdf731;
-  font-size: 30px;
+  font-size: 1.87em;
   font-family: "Merriweather";
   font-weight: 700;
   float: left;
   margin-left: 40px;
-  padding-top:30px;
+  padding-top: 30px;
 }
 
 nav {
-  font-size: 20px;
+  font-size: 1.25em;
   font-family: "Oswald";
   font-weight: 700;
   color: #ffffff;
@@ -82,7 +82,7 @@ nav li.active {
   font-family: "Merriweather";
   font-weight: 700;
   font-style: italic;
-  font-size: 25px;
+  font-size: 1.56em;
   text-align: center;
   padding-top: 35px;
 }
@@ -109,11 +109,11 @@ ins {
 }
 
 .blurb {
-  width: 25%;
-  height: 400px;
+  width: 40%;
+  min-height: 250px;
   background-color: rgba(255,255,255,.85);
   float: right;
-  margin: auto;
+  /*margin: auto;*/
   padding: 30px;
   display: inline-block;
   border: 2px solid #ddd;
@@ -124,14 +124,14 @@ ins {
 .meet-your-match {
   font-family: "Source Sans Pro";
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.875em;
   padding-bottom: 20px;
 }
 
 .meet-blurb {
   font-family: "Source Sans Pro";
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25em;
   line-height: 25px;
   padding-bottom: 30px;
 }
@@ -141,7 +141,7 @@ ins {
   color: #000000;
   font-family: "Oswald";
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25em;
   width: 300px;
   height: 60px;
   text-align: center;
@@ -153,15 +153,14 @@ ins {
 
 .bottom {
   overflow: hidden;
-  margin-left: 180px;
-  height: 400px;
 }
 
-.create-a-profile {
-  width: 350px;
+.create-a-portfolio {
+  width: 30%;
   height: 325px;
-  margin-top: 30px;
-  margin-right: 30px;
+  margin-top: 1.875em;
+  padding-left: 1.875em;
+  padding-right: 1.875em;
   display: inline-block;
   border-right: 1px solid #c6c6c6;
 }
@@ -169,18 +168,16 @@ ins {
 .title-style {
   font-family: "Merriweather";
   font-weight: 700;
-  font-size: 25px;
+  font-size: 1.56em;
   padding-top: 30px;
   padding-bottom: 15px;
-  width: 425px;
 }
 
 .text-style {
   font-family: "Source Sans Pro";
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 400;
   line-height: 30px;
-  width: 300px;
   padding-bottom: 30px;
 }
 
@@ -191,7 +188,7 @@ ins {
   height: 60px;
   font-family: "Oswald";
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
   padding: 20px;
   border-radius: 5px;
@@ -199,19 +196,19 @@ ins {
 }
 
 .find-a-developer {
-  width: 350px;
+  width: 30%;
   height: 325px;
-  margin-top: 30px;
-  margin-right: 30px;
+  padding-left: 1.875em;
+  padding-right: 1.875em;
   display: inline-block;
   border-right: 1px solid #c6c6c6;
 }
 
 .find-a-designer {
-  width: 350px;
+  width: 30%;
   height: 325px;
-  margin-top: 30px;
-  margin-right: 30px;
+  padding-left: 1.875em;
+  padding-right: 1.875em;
   display: inline-block;
 }
 
@@ -231,4 +228,64 @@ footer {
   color: #ffffff;
   padding-top: 40px;
   padding-left: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  .tagline {
+    font-size: 1em;
+  }
+
+  .meet-your-match {
+    font-size: 1.875em;
+  }
+
+  .blurb {
+    width: 80%;
+  }
+
+  .title-style {
+    font-family: 1em;
+  }
+
+  .text-style {
+    font-family: 1em;
+  }  
+
+  .create-a-profile-btn {
+    width: 100%;
+  }
+
+  .find-a-developer {
+  width: 90%;
+  border-right: none;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+  .find-a-designer {
+  width: 90%;
+  border-right: none;
+}
+
+  .create-a-portfolio {
+    width: 90%;
+    border-right: none;
+    border-bottom: 1px solid #c6c6c6;
+  }
+
+  .hamburger {
+    float: right;
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+  .line-1 {
+    height: 1px;
+    width: 30px;
+    background-color: white;
+    float: right;
+  }
+
+
+
 }
