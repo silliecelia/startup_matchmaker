@@ -155,7 +155,7 @@ ins {
   overflow: hidden;
 }
 
-.create-a-portfolio {
+.column {
   width: 30%;
   height: 325px;
   margin-top: 1.875em;
@@ -163,6 +163,14 @@ ins {
   padding-right: 1.875em;
   display: inline-block;
   border-right: 1px solid #c6c6c6;
+}
+
+.column-last {
+  width: 30%;
+  height: 325px;
+  padding-left: 1.875em;
+  padding-right: 1.875em;
+  display: inline-block;
 }
 
 .title-style {
@@ -193,27 +201,6 @@ ins {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 5px 0px #808080;
-}
-
-.find-a-developer {
-  width: 30%;
-  height: 325px;
-  padding-left: 1.875em;
-  padding-right: 1.875em;
-  display: inline-block;
-  border-right: 1px solid #c6c6c6;
-}
-
-.find-a-designer {
-  width: 30%;
-  height: 325px;
-  padding-left: 1.875em;
-  padding-right: 1.875em;
-  display: inline-block;
-}
-
-#signup {
-  
 }
 
 footer {
@@ -255,13 +242,13 @@ footer {
     width: 100%;
   }
 
-  .find-a-developer {
+  .column {
   width: 90%;
   border-right: none;
   border-bottom: 1px solid #c6c6c6;
 }
 
-  .find-a-designer {
+  .column-last {
   width: 90%;
   border-right: none;
 }
@@ -287,17 +274,16 @@ footer {
     float: right;
   }
 
-.hamburger {
-  display: block;
+  .hamburger {
+    display: block;
   }
-}
 
-.hamburger span {
-  display: block;
-  width: 20px;
-  height:3px;
-  background-color: #000;
-  margin:2px 0;
+  .hamburger span {
+    display: block;
+    width: 20px;
+    height:3px;
+    background-color: #000;
+    margin:2px 0;
 }
 
 
