@@ -217,7 +217,7 @@ footer {
   padding-left: 40px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 580px) {
   .tagline {
     font-size: 1em;
   }
@@ -252,12 +252,6 @@ footer {
   width: 90%;
   border-right: none;
 }
-
-  .create-a-portfolio {
-    width: 90%;
-    border-right: none;
-    border-bottom: 1px solid #c6c6c6;
-  }
 
   .hamburger {
     position: fixed;
