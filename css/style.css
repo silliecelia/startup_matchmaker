@@ -267,23 +267,36 @@ footer {
     display: none;
 }
 
-  .line-1 {
-    height: 1px;
-    width: 30px;
-    background-color: white;
-    float: right;
-  }
-
-  .hamburger {
-    display: block;
-  }
-
   .hamburger span {
     display: block;
     width: 20px;
     height:3px;
     background-color: #000;
     margin:2px 0;
+}
+
+header nav {
+  display: none;
+  }
+}
+
+header nav ul {
+  list-style: none;
+  overflow: hidden;
+
+}
+
+header nav ul li {
+  display: inline-block;
+  height: 30px;
+  margin-left: 20px;
+}
+
+  .line-1 {
+    height: 1px;
+    width: 30px;
+    background-color: white;
+    float: right;
 }
 
 
