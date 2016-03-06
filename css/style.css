@@ -273,10 +273,11 @@ footer {
   }
 
   .hamburger {
-    float: right;
-    width: 50px;
-    margin-right: 10px;
-    margin-top: 10px;
+    position: fixed;
+    top:25px;
+    right:25px;
+    z-index: 90;
+    display: none;
 }
 
   .line-1 {
@@ -286,6 +287,17 @@ footer {
     float: right;
   }
 
-
-
+.hamburger {
+  display: block;
+  }
 }
+
+.hamburger span {
+  display: block;
+  width: 20px;
+  height:3px;
+  background-color: #000;
+  margin:2px 0;
+}
+
+
